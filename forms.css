@@ -1,0 +1,36 @@
+.nav{
+	background-color: powderblue;
+	height: 15vh;
+	margin-bottom: 15px;
+}
+
+.box{
+	background-color: powderblue;
+	height: 30vh;
+}
+
+.model {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+	gap: 5px;
+}
+
+.model > div{
+	background-color: powderblue;
+	height: 30vh;
+	width: 33%;
+}
+
+.footer{background-color: powderblue;
+	height: 15vh;
+	margin-top: 15px;
+
+}
+
+@media (orientation:portrait){
+	.nav{
+		display: flex;
+		flex-direction: column;
+	}
+}
